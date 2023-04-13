@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Boris Fletch",
+      "email": "boriscloris@email.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Claudia Doofinschmidt",
+      "email": "thedoofinator265@email.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 1000
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 2,
+      "startDate": "2021-04-04",
+      "payRate": 18.5,
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "245 Clemont Street E",
+      "sqft": 3600
+    },
+    {
+      "id": 2,
+      "address": "64 Old Town Rd",
+      "sqft": 2300
+    },
+    {
+      "id": 3,
+      "address": "1700 East Street W",
+      "sqft": 5000
+    },
+    {
+      "id": 4,
+      "address": "466 10th Avenue",
+      "sqft": 3200
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Zapnut Bar",
+      "productTypeId": 1,
+      "price": 1.79
+    },
+    {
+      "id": 2,
+      "name": "Squirt Zurts",
+      "productTypeId": 7,
+      "price": 3.69
+    },
+    {
+      "id": 3,
+      "name": "Phillis' Original Caramels",
+      "productTypeId": 8,
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Maple Nut Goodies",
+      "productTypeId": 10,
+      "price": 4.99
+    },
+    {
+      "id": 5,
+      "name": "Twisty Bendy Straws",
+      "productTypeId": 3,
+      "price": 3.49
+    },
+    {
+      "id": 6,
+      "name": "POW",
+      "productTypeId": 2,
+      "price": 1.99
+    },
+    {
+      "id": 7,
+      "name": "Crocodile Bites",
+      "productTypeId": 9,
+      "price": 5.49
+    },
+    {
+      "id": 8,
+      "name": "Ooey Gooey Red and Glooey",
+      "productTypeId": 4,
+      "price": 3.99
+    },
+    {
+      "id": 9,
+      "name": "Ziggler Treats",
+      "productTypeId": 1,
+      "price": 2.29
+    },
+    {
+      "id": 10,
+      "name": "Monster Crunch",
+      "productTypeId": 9,
+      "price": 4.79
+    },
+    {
+      "id": 11,
+      "name": "Fruity Gems",
+      "productTypeId": 2,
+      "price": 2.99
+    },
+    {
+      "id": 12,
+      "name": "Creole Chew",
+      "productTypeId": 5,
+      "price": 3.29
+    },
+    {
+      "name": "Chocolate Explosion",
+      "productTypeId": "1",
+      "price": "2.79",
+      "id": 13
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "typeName": "Chocolate"
+    },
+    {
+      "id": 2,
+      "typeName": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "typeName": "Licorice"
+    },
+    {
+      "id": 4,
+      "typeName": "Taffy"
+    },
+    {
+      "id": 5,
+      "typeName": "Chewing Gum"
+    },
+    {
+      "id": 6,
+      "typeName": "Gummy Candies"
+    },
+    {
+      "id": 7,
+      "typeName": "Sour Candy"
+    },
+    {
+      "id": 8,
+      "typeName": "Caramels"
+    },
+    {
+      "id": 9,
+      "typeName": "Brittle Candy"
+    },
+    {
+      "id": 10,
+      "typeName": "Nut Clusters"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 10
+    }
+  ]
+}
