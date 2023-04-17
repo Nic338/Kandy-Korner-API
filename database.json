@@ -11,13 +11,53 @@
       "name": "Claudia Doofinschmidt",
       "email": "thedoofinator265@email.com",
       "isStaff": false
+    },
+    {
+      "name": "Nic",
+      "email": "nicagain@nic.com",
+      "isStaff": true,
+      "id": 3
+    },
+    {
+      "name": "Joe Everyman",
+      "email": "joemamma@email.com",
+      "isStaff": true,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Roberto Dumal",
+      "email": "arealemail5@email.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Nicholas Again",
+      "email": "anotherrealemail2@email.com",
+      "isStaff": false
     }
   ],
   "customers": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 2,
       "loyaltyNumber": 1000
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "loyaltyNumber": 30000
+    },
+    {
+      "id": 3,
+      "userId": 6,
+      "loyaltyNumber": 27564,
+      "user": {
+        "id": 6,
+        "name": "Nicholas Again",
+        "email": "anotherrealemail2@email.com",
+        "isStaff": false
+      }
     }
   ],
   "employees": [
@@ -27,6 +67,20 @@
       "startDate": "2021-04-04",
       "payRate": 18.5,
       "locationId": 1
+    },
+    {
+      "userId": 3,
+      "startDate": "2023-04-14",
+      "payRate": 123,
+      "locationId": 4,
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "startDate": "2023-04-14",
+      "payRate": 3000,
+      "locationId": 3,
+      "id": 3
     }
   ],
   "locations": [
